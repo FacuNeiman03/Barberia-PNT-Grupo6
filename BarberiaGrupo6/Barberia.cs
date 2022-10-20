@@ -6,12 +6,6 @@ using System.Text;
 namespace BarberiaGrupo6
 {
     class Barberia
-        //PASAR TODO A LIST
-        //CONSTRUCTORES DEFUALT
-        //PROPIEDADES PUBLICAS Y CON GET SET
-        //GITHUB
-        //String a string
-
     {
         public string Nombre { get; set; }
         private List<Turno> turnos;
