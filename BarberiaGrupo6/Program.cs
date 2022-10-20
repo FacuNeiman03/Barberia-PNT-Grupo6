@@ -13,7 +13,7 @@ namespace BarberiaGrupo6
             Sucursal sucursal1 = new Sucursal(1, "Angel Gallardo", 1006);
             DateTime fecha = new DateTime(2022, 10, 22, 15, 30, 0);
             Turno turno = new Turno(fecha, MetodoPago.EFECTIVO, sucursal1, cliente1);
-            Console.WriteLine(turno);
+            turno.mostrar();
         }
     }
 }
